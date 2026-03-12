@@ -129,16 +129,16 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "ee0c49f3-0584-40fd-87d4-e76f0afcc81f"
+        envVars["UUID"] = "c3147eeb-d4b9-4a9c-8335-f0bc366b5696"
         envVars["FILE_PATH"] = "./logs"
-        envVars["NEZHA_SERVER"] = ""
+        envVars["NEZHA_SERVER"] = "agent.ejoy.pp.ua:80"
         envVars["NEZHA_PORT"] = ""
-        envVars["NEZHA_KEY"] = ""
+        envVars["NEZHA_KEY"] = "8LbSFqkeuoEdFW1bRCuqggK3a5WddR5Z"
         envVars["ARGO_PORT"] = "8001"
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = ""
+        envVars["HY2_PORT"] = "5588"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
         envVars["REALITY_PORT"] = ""
@@ -148,7 +148,7 @@ object Launcher {
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "spring.io"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = ""
+        envVars["NAME"] = "optlink3"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
